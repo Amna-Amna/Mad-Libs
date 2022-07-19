@@ -73,4 +73,22 @@ body {
   color: #1066a0;
   font-family: cursive;
 }
-
+.self{
+  margin-left: 45%;
+  color: palevioletred;
+  font-size: xx-large;
+}
+.inserted-text{
+  color: #c4098c;
+  font-weight: bold;
+}
+.inserted-text:hover{
+  color:#ac1643 ;
+}
+#complete-story{
+  color: #da503e;
+ font-size: xx-large;
+}
+#complete-story:hover{
+  color: #a02a1a;
+}
