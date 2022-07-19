@@ -9,60 +9,60 @@
   </head>
 
   <body id="color">
-    <div class="display">
-      <div>
-        <p class="text">Lucky number</p>
-        <input class="put" type="number" placeholder="0" />
+    <form action="storypage.html">
+      <div class="display">
+        <div>
+          <p class="text number">Lucky number</p>
+          <input required class="put" type="number" placeholder="0" />
+        </div>
+
+        <div>
+          <p class="text name">Name</p>
+          <input required class="put" type="text" placeholder="John" />
+        </div>
+
+        <div>
+          <p class="text colour">Fav Color</p>
+          <input required class="put" type="text" placeholder="Red" />
+        </div>
       </div>
 
-      <div>
-        <p class="text">Name</p>
-        <input class="put" type="text" placeholder="John" />
+      <div class="display">
+        <div>
+          <p class="text sport">sport</p>
+          <input required class="put" type="text" placeholder="Cricket" />
+        </div>
+
+        <div>
+          <p class="text food">food</p>
+          <input required class="put" type="text" placeholder="Pizza" />
+        </div>
+
+        <div>
+          <p class="text age">Age</p>
+          <input required class="put" type="number" placeholder="10" />
+        </div>
       </div>
 
-      <div>
-        <p class="text">Fav Color</p>
-        <input class="put" type="text" placeholder="orange" />
-      </div>
-    </div>
+      <div class="display">
+        <div>
+          <p class="text beverage">Beverage</p>
+          <input required class="put" type="text" placeholder="Coca Cola" />
+        </div>
 
-    <div class="display">
-      <div>
-        <p class="text">sport</p>
-        <input class="put" type="text" placeholder="Cricket" />
-      </div>
+        <div>
+          <p class="text place">Fav Place</p>
+          <input required class="put" type="text" placeholder="Pakistan" />
+        </div>
 
-      <div>
-        <p class="text">food</p>
-        <input class="put" type="text" placeholder="Pizza" />
-      </div>
-
-      <div>
-        <p class="text">Age</p>
-        <input class="put" type="number" placeholder="10" />
-      </div>
-    </div>
-
-    <div class="display">
-      <div>
-        <p class="text">Beverage</p>
-        <input class="put" type="text" placeholder="Coca Cola" />
+        <div>
+          <p class="text aim">Aim</p>
+          <input required class="put" type="text" placeholder="Developer" />
+        </div>
       </div>
 
-      <div>
-        <p class="text">Fav Place</p>
-        <input class="put" type="text" placeholder="Pakistan" />
-      </div>
-
-      <div>
-        <p class="text">Aim</p>
-        <input class="put" type="text" placeholder="Developer" />
-      </div>
-    </div>
-
-    <a href="storypage.html" target="_blank">
-      <button id="generatebtn">Generate Story</button></a
-    >
+      <button type="submit" id="generate-btn">Generate Story</button>
+    </form>
 
     <script src="madlibs.js"></script>
   </body>
